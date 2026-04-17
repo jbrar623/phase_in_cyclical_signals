@@ -137,7 +137,7 @@ This project suggests that:
 
 - **Listening alone is not enough** since phase changes are often subtle or hidden
 - **Visualization alone is not enough**, most common tools ignore phase
-- **Together, they fill the gap**, listening reveals perceptual effects, visualization explains why they occur
+- **Together** listening reveals perceptual effects, visualization explains why they occur
 
 The combination allows phase to move from abstract math → observable behavior → intuitive understanding.
 
@@ -147,4 +147,4 @@ Joban Brar
 jbrar23@mtroyal.ca 
 
 Supervisors:
-Charles Hepler, Dr. Peter Zizler
+Dr. Charles Hepler, Dr. Peter Zizler
