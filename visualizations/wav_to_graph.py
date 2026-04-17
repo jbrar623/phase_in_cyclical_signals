@@ -120,6 +120,6 @@ files = [
 ]
 
 for f in files:
-    plot_spectrogram(f, output_dir="visualizations/spectograms")
+    plot_spectrogram(f, output_dir="visualizations/spectrograms")
     plot_waveform(f, output_dir="visualizations/waveforms")
     plot_phase_scatter(f, time_sec=5.0, output_dir="visualizations/phase_scatter")
