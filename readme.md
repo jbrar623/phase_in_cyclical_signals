@@ -6,20 +6,20 @@ This project is part of a broader research question:
 
 **How can listening and visualization be used together to help people develop an intuitive understanding of phase in cyclical signals?**
 
-Phase is fundamental to signal processing, but it is also one of the hardest concepts to build intuition for. Most tools prioritize magnitude (like spectrograms), while phase is either hidden or treated as secondary. At the same time, phase is not directly audible by iself, which makes it even harder to grasp.
+Phase is fundamental to signal processing, but it is also one of the hardest concepts to build intuition for. Most tools prioritize magnitude (like spectrograms), while phase is either hidden or treated as secondary. At the same time, phase is not directly audible by itself, which makes it harder to understand.
 
 This project approaches that gap directly by combining:
 - listening experiments, what does a phase change sound like?
 - visualizations, what does phase look like?
 - mathematical framing, what is actually happening under the hood?
 
-The goal is to make phase intuitive, the way freqneucy and other signal concepts are.
+The goal is to make phase intuitive, the way frequency and other signal concepts are.
 
 ---
 
 ## Two Components
 
-This repository is one of two parts of the project. The other is a **dictionary** that bridges the gap between mathematical definitions and audio engineering application. Terms like phaser, phase vocoder, instantaneous frequency, and the Hilbert transform each have precise mathematical meanings, but they also have practical identities in music production and audio engineering that aren't often connected to that math. The dictionary attempts to define each term formally and then explain what is mathematically happneing to the sound. The code here is the experimental side: it provides audio that supports and explains those definitions. 
+This repository is one of two parts of the project. The other is a **dictionary** that bridges the gap between mathematical definitions and audio engineering application. Terms like phaser, phase vocoder, instantaneous frequency, and the Hilbert transform each have precise mathematical meanings, but they also have practical identities in music production and audio engineering that are not often connected to that math. The dictionary attempts to define each term formally and then explain what is mathematically happening to the sound. The code here is the experimental side: it provides audio that supports and explains those definitions. 
 
 ---
 
@@ -73,7 +73,7 @@ The repository is organized sequentially:
 1. Foundations to explain what FFT/IFFT actually do
 2. Synthetic experiments to isolate phase in simple signals
 3. Real audio to test whether the same ideas hold in music
-4. Visualization to ompare what we hear vs what we see
+4. Visualization to compare what we hear vs what we see
 
 ---
 
