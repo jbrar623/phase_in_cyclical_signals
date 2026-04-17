@@ -111,12 +111,18 @@ def plot_waveform(filename, output_dir=None, label=None):
 # usage
 
 files = [
-    "bad_bunny/sounds/DtMF - Bad Bunny (128k).wav",
-    "bad_bunny/sounds/hilbert/H_real.wav",
-    "bad_bunny/sounds/hilbert/y_real.wav",
-    "bad_bunny/sounds/hilbert/abs_H.wav",
-    "bad_bunny/sounds/output_bb_eq.wav",
-    "bad_bunny/sounds/output_wavs/2_zero_phase.wav",
+    #"bad_bunny/sounds/DtMF - Bad Bunny (128k).wav",
+    #"bad_bunny/sounds/hilbert/H_real.wav",
+    #"bad_bunny/sounds/hilbert/y_real.wav",
+    #"bad_bunny/sounds/hilbert/abs_H.wav",
+    #"bad_bunny/sounds/output_bb_eq.wav",
+    #"bad_bunny/sounds/output_wavs/2_zero_phase.wav",
+    #"bad_bunny/sounds/output_wavs/3_random_phase.wav"
+    #"bad_bunny/sounds/phaser_allpass_stereo.wav"
+    "bad_bunny/sounds/librosa/manual_vocoder_1.5x.wav"
+
+
+
 ]
 
 for f in files:

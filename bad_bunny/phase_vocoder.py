@@ -25,7 +25,7 @@ def phase_vocoder(filename, time_stretch=1.5, output_dir="sounds"):
     return y_stretched, sr
 
 
-def manual_vocoder(filename, time_stretch=1.5, n_fft=2048, hop_length=512, output_dir="sounds"):
+def manual_vocoder(filename, time_stretch=1.5, n_fft=2048, hop_length=512, output_dir="bad_bunny/sounds/librosa"):
     """
     Manual phase vocoder — exposes the raw algorithm explicitly.
 
