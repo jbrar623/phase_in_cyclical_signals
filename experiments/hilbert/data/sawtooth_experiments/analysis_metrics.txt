@@ -1,0 +1,29 @@
+RESULTS
+
+SETUP:
+Sample rate: 44100 Hz
+Duration: 10.0 seconds
+Fundamental frequency: 220.0 Hz
+Sawtooth harmonics: 50
+
+WAVE DEFINITIONS:
+Wave A: sin(ωt) + 0.5*sin(2ωt)
+Wave B: sin(ωt) + 0.5*cos(2ωt)  [90° phase shift on 2nd harmonic]
+
+SAWTOOTH FOURIER SERIES:
+f(t) = (2A/π) * Σ[(-1)^(n+1) * sin(n*ω*t) / n] for n=1 to 50
+
+NUMERIC RESULTS
+
+RMS DIFFERENCES:
+Wave A vs B (phase shift on 2nd harmonic): 0.367353
+Sawtooth phase shift (harmonic 2 only): 0.264512
+Time reversal (forward vs backward): 0.986541
+Amplitude inversion (up vs down ramp): 1.154701
+
+CORRELATIONS:
+Wave A vs B: 0.800000
+Sawtooth phase shift (harmonic 2 only): 0.846166
+Time reversal: -0.985897
+Amplitude inversion: -1.000000
+(1.0 = identical, 0.0 = uncorrelated, -1.0 = inverted)

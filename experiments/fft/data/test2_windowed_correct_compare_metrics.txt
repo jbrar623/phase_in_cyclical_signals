@@ -1,0 +1,3 @@
+test2_windowed_correct_compare
+RMSE = 1.486810e-16
+MaxAbs = 6.661338e-16

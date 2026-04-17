@@ -1,0 +1,14 @@
+Nyquist / Sampling Rate FFT to IFFT test
+
+fs_truth = 44100.0 Hz
+fs_low = 8000.0 Hz
+Nyquist frequency = 4000.0 Hz
+f_ok = 440.0 Hz
+f_alias (true) = 5500.0 Hz
+
+FFT peak frequency from low-rate samples:
+Observed peak ≈ 440.00 Hz
+
+FFT to IFFT reconstruction error on low-rate samples:
+RMSE = 2.377777e-16
+MaxAbs = 1.110223e-15

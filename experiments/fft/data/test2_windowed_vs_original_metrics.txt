@@ -1,0 +1,3 @@
+test2_windowed_vs_original
+RMSE = 5.051224e-01
+MaxAbs = 1.545388e+00
