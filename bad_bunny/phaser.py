@@ -5,7 +5,7 @@ from scipy.io import wavfile
 from scipy.signal import lfilter
 
 AUDIO_IN  = "bad_bunny/sounds/DtMF - Bad Bunny (128k).wav"
-AUDIO_OUT = "bad_bunny/sounds"
+AUDIO_OUT = "bad_bunny/sounds/phased"
 os.makedirs(AUDIO_OUT, exist_ok=True)
 
 
